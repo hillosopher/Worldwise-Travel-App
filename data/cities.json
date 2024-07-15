@@ -1,0 +1,148 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": "73930385"
+    },
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": "17806751"
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": "98443197"
+    },
+    {
+      "id": "17c8",
+      "cityName": "Croissy-Beaubourg",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-07-02T17:45:15.073Z",
+      "notes": "test",
+      "position": {
+        "lat": "48.821332549646655",
+        "lng": "2.6367187500000004"
+      }
+    },
+    {
+      "id": "fe7d",
+      "cityName": "Portland",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-07-02T17:46:10.213Z",
+      "notes": "I live here! ",
+      "position": {
+        "lat": "45.519819502877084",
+        "lng": "-122.67196655273439"
+      }
+    },
+    {
+      "id": "ec55",
+      "cityName": "Portland",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-07-02T17:46:39.167Z",
+      "notes": "I DON'T live here!",
+      "position": {
+        "lat": "43.653465927607364",
+        "lng": "-70.26374816894533"
+      }
+    },
+    {
+      "id": "5140",
+      "cityName": "Windham Center",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-07-02T17:50:14.350Z",
+      "notes": "test",
+      "position": {
+        "lat": "43.78646266947705",
+        "lng": "-70.40451049804689"
+      }
+    },
+    {
+      "id": "e844",
+      "cityName": "Norway",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-07-02T17:50:35.516Z",
+      "notes": "test",
+      "position": {
+        "lat": "43.213183300738876",
+        "lng": "-74.97070312500001"
+      }
+    },
+    {
+      "id": "77b3",
+      "cityName": "Tarazona",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-07-02T17:51:35.999Z",
+      "notes": "test",
+      "position": {
+        "lat": "41.934976500546604",
+        "lng": "-1.6479492187500002"
+      }
+    },
+    {
+      "id": "2fa5",
+      "cityName": "Peraleda de la Mata",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-07-02T17:53:33.562Z",
+      "notes": "test",
+      "position": {
+        "lat": "39.8928799002948",
+        "lng": "-5.47119140625"
+      }
+    },
+    {
+      "id": "1c6e",
+      "cityName": "Santa Maria del Campo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-07-02T17:53:50.998Z",
+      "notes": "test",
+      "position": {
+        "lat": "42.13082130188811",
+        "lng": "-3.9550781250000004"
+      }
+    },
+    {
+      "id": "a312",
+      "cityName": "Nogais, As",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-07-02T20:00:12.274Z",
+      "notes": "hi",
+      "position": {
+        "lat": "42.76314586689494",
+        "lng": "-7.119140625"
+      }
+    }
+  ]
+}
