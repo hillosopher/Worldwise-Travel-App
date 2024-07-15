@@ -1,8 +1,19 @@
-# React + Vite
+# Worldwise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a travel application I built for React practice. Skills practiced:
 
-Currently, two official plugins are available:
+- Initializing and working with a Vite project
+- custom hooks
+- React Router and managing url as state
+- State management through Context API and useReducer
+- User Authorization using Context API
+- Geolocation via Leaflet
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refres
+## How to run app
+- Clone Repo
+- Run npm i in terminal to download dependencies
+- Run npm server to run mock backend
+- Run npm run dev
+
+## Mock login credentials
+- See FAKE_USER on FakeAuthContext.jsx for credentials
