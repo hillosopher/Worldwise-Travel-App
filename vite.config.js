@@ -5,5 +5,5 @@ import eslint from "vite-plugin-eslint";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), eslint()],
-  // base: "/Worldwise-Travel-App/",
+  base: "/Worldwise-Travel-App/",
 });
