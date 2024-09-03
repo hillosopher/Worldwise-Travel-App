@@ -1,6 +1,6 @@
 # Worldwise
 
-This is a travel application I built for React practice. Skills practiced:
+This is a travel application I built for React practice as a part of The Ultimate React Course on Udemy. Skills practiced:
 
 - Initializing and working with a Vite project
 - custom hooks
