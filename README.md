@@ -10,10 +10,7 @@ This is a travel application I built for React practice. Skills practiced:
 - Geolocation via Leaflet
 
 ## How to run app
-- Clone Repo
-- Run npm i in terminal to download dependencies
-- Run npm server to run mock backend
-- Run npm run dev
+- App deployed at https://hillosopher.github.io/Worldwise-Travel-App
 
 ## Mock login credentials
 - See FAKE_USER on FakeAuthContext.jsx for credentials
