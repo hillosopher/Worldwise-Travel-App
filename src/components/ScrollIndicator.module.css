@@ -1,0 +1,25 @@
+.arrowDiv {
+  position: absolute;
+  display: flex;
+  margin: 10px auto;
+  left: 45%;
+  align-items: center;
+  justify-items: center;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+  background-color: var(--color-brand--2);
+  z-index: 99;
+}
+
+.arrow {
+  margin: 0 auto;
+  margin-bottom: 2px;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.down {
+  bottom: 0.5rem;
+}

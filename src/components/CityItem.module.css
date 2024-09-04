@@ -52,3 +52,29 @@
   background-color: var(--color-brand--1);
   color: var(--color-dark--1);
 }
+
+@media only screen and (max-width: 900px) {
+  .emoji {
+    font-size: 2.2rem;
+    line-height: 0.8;
+  }
+
+  .name {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  .deleteBtn {
+    height: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .cityItem,
+  .cityItem:link,
+  .cityItem:visited {
+    padding: 0.5rem 1rem;
+  }
+}

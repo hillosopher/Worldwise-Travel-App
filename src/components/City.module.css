@@ -1,10 +1,9 @@
 .city {
   padding: 2rem 3rem;
-  max-height: 70%;
+  /* max-height: 70%; */
   background-color: var(--color-dark--2);
   border-radius: 7px;
   overflow: scroll;
-
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -44,4 +43,32 @@
 .city a:visited {
   font-size: 1.6rem;
   color: var(--color-brand--1);
+}
+
+@media only screen and (max-width: 750px) {
+  .city {
+    transform: scale(0.85);
+    transform-origin: top;
+    gap: 1rem;
+    line-height: 1.6rem;
+  }
+
+  .button {
+    transform: scale(0.85);
+    transform-origin: left;
+  }
+
+  .row {
+    gap: 0.4rem;
+  }
+
+  .city h3 {
+    font-size: 1.7rem;
+  }
+
+  .city p,
+  .city a:link,
+  .city a:visited {
+    font-size: 1.4rem;
+  }
 }

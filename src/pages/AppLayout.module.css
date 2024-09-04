@@ -5,3 +5,9 @@
   display: flex;
   position: relative;
 }
+
+@media only screen and (max-width: 750px) {
+  .app {
+    flex-direction: column;
+  }
+}

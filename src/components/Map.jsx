@@ -14,6 +14,7 @@ import { useGeolocation } from "../hooks/useGeolocation";
 import { useUrlPosition } from "../hooks/useUrlPosition";
 
 import Button from "./Button";
+import User from "./User";
 
 import styles from "./Map.module.css";
 
@@ -73,6 +74,7 @@ function Map() {
         <ChangeCenter position={mapPosition} />
         <DetectClick />
       </MapContainer>
+      <User />
     </div>
   );
 }

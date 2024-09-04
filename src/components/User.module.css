@@ -1,7 +1,7 @@
 .user {
   position: absolute;
-  top: 4.2rem;
-  right: 4.2rem;
+  top: 2rem;
+  right: 2rem;
   background-color: var(--color-dark--1);
   padding: 1rem 1.4rem;
   border-radius: 7px;
@@ -31,4 +31,11 @@
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 750px) {
+  .user {
+    transform: scale(0.8);
+    transform-origin: top right;
+  }
 }
