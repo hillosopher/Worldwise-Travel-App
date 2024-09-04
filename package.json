@@ -14,6 +14,7 @@
     "server": "json-server --watch data/cities.json --port 8000"
   },
   "dependencies": {
+    "hamburger-react": "^2.5.1",
     "json-server": "^1.0.0-beta.1",
     "leaflet": "^1.9.4",
     "react": "^18.2.0",

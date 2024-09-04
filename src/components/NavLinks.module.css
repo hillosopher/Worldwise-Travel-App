@@ -1,0 +1,69 @@
+.horizNavLinks {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.horizNavLinks a:link,
+.horizNavLinks a:visited {
+  text-decoration: none;
+  color: var(--color-light--2);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* CSS Modules feature */
+.horizNavLinks a:global(.active) {
+  color: var(--color-brand--2);
+}
+
+a.ctaLink:link,
+a.ctaLink:visited {
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--0);
+  padding: 0.8rem 2rem;
+  border-radius: 7px;
+}
+
+/* Styles for vertical navigation links */
+.vertNavLinks {
+  list-style: none;
+  position: absolute;
+  top: 110px;
+  right: 40px;
+  display: flex;
+  flex-direction: column; /* Stack links vertically */
+  align-items: center;
+  gap: 2.5rem;
+  background-color: var(--color-brand--2);
+  padding: 3rem; /* Optional: add some padding */
+  border-radius: 8px; /* Optional: add border radius */
+}
+
+.vertNavLinks a:link,
+.vertNavLinks a:visited {
+  text-decoration: none;
+  color: white; /* Set link color to white */
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 100%; /* Make links take full width */
+  text-align: center; /* Center the text */
+  padding: 1rem 0; /* Add padding for touch area */
+}
+
+/* Active link styles for vertical nav */
+.vertNavLinks a:global(.active) {
+  color: black; /* Set active link color to black */
+}
+
+/* Styles for CTA link when in vertical nav */
+.vertNavLinks a.ctaLink:link,
+.vertNavLinks a.ctaLink:visited {
+  background-color: white; /* Change background to white */
+  color: black; /* Set font color to black */
+  padding: 0.8rem 2rem;
+  border-radius: 7px;
+}
